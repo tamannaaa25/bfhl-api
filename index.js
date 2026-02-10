@@ -112,4 +112,5 @@ app.post("/bfhl", async (req, res) => {
   }
 });
 
-app.listen(PORT, () => console.log(`API running on port ${PORT}`));
+export default app;
+
